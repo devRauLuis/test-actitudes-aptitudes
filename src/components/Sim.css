@@ -1,0 +1,50 @@
+.container {
+  @apply px-8 mx-auto;
+}
+
+.parking-lot-grid {
+  @apply grid grid-rows-5 border-4 p-4;
+}
+
+.level-grid {
+  @apply grid grid-cols-10 border-t-2 p-2 border-emerald-400 m-2 w-full gap-2 text-xs;
+}
+
+.car {
+  @apply border-2 p-2;
+}
+.sim-container {
+  @apply flex justify-center;
+}
+
+.component {
+  @apply flex flex-col items-center text-lg text-center;
+}
+
+.component span {
+  @apply text-blue-600 text-2xl;
+}
+
+.component + .component {
+  @apply ml-24;
+}
+
+.sim-actions {
+  @apply flex justify-center mt-8;
+}
+
+.sim-actions button + button {
+  @apply ml-4;
+}
+
+.sim-history {
+  @apply mt-8;
+}
+
+.actions-container {
+  @apply grid grid-cols-6 gap-x-8 mt-24;
+}
+
+.actions-container h2 {
+  @apply flex flex-col items-center font-bold;
+}
