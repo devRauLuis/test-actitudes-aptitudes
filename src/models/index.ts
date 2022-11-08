@@ -9,4 +9,21 @@ export interface ICar {
   id: string;
   parkedAt: number;
   leavingAt: number;
+  impounded?: boolean;
+  parkingFee?: number;
+}
+
+export interface IQuestion {
+  name: string;
+  text: string;
+  percentage?: IPercentage;
+}
+
+export interface IPercentage {
+  arts: number;
+  engineering: number;
+  education: number;
+  health: number;
+  law: number;
+  economics: number;
 }

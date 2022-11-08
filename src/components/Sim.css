@@ -11,7 +11,7 @@
 }
 
 .car {
-  @apply border-2 p-2;
+  @apply border-2 p-2 flex items-center gap-4;
 }
 .sim-container {
   @apply flex justify-center;

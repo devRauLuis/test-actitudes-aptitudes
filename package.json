@@ -1,5 +1,5 @@
 {
-  "name": "sociedad-contaminacion-industrias",
+  "name": "sim-estacionamiento",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.5",
+    "formik": "^2.2.9",
     "nanoid": "^4.0.0",
     "primeicons": "^5.0.0",
     "primereact": "^8.5.0",
@@ -34,6 +35,7 @@
     "eslint-plugin-react": "^7.31.8",
     "postcss": "^8.4.16",
     "prettier": "^2.7.1",
+    "react-icons": "^4.6.0",
     "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
